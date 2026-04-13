@@ -25,8 +25,8 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Tobias Köllner — Webentwicklung & KI-Beratung Berlin",
-    template: "%s · Tobias Köllner",
+    default: "Christopher Köllner — Webentwicklung & KI-Beratung Berlin",
+    template: "%s · Christopher Köllner",
   },
   description:
     "Webdeveloper und KI-Berater aus Berlin. Ich entwickle moderne Websites, Web-Apps und begleite Unternehmen bei ihrer digitalen KI-Transformation.",
@@ -40,14 +40,14 @@ export const metadata: Metadata = {
     "AI Consultant",
     "Freiberufler Berlin",
   ],
-  authors: [{ name: "Tobias Köllner", url: "https://koellner.life" }],
-  creator: "Tobias Köllner",
+  authors: [{ name: "Christopher Köllner", url: "https://koellner.life" }],
+  creator: "Christopher Köllner",
   openGraph: {
     type: "website",
     locale: "de_DE",
     url: "https://koellner.life",
-    siteName: "Tobias Köllner",
-    title: "Tobias Köllner — Webentwicklung & KI-Beratung Berlin",
+    siteName: "Christopher Köllner",
+    title: "Christopher Köllner — Webentwicklung & KI-Beratung Berlin",
     description:
       "Webdeveloper und KI-Berater aus Berlin. Moderne Websites, Web-Apps und KI-Transformation.",
     images: [
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Tobias Köllner — Webentwicklung & KI-Beratung",
+        alt: "Christopher Köllner — Webentwicklung & KI-Beratung",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tobias Köllner — Webentwicklung & KI-Beratung Berlin",
+    title: "Christopher Köllner — Webentwicklung & KI-Beratung Berlin",
     description:
       "Webdeveloper und KI-Berater aus Berlin. Moderne Websites, Web-Apps und KI-Transformation.",
     images: ["/og-image.jpg"],

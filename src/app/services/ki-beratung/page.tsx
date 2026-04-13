@@ -5,7 +5,7 @@ import { ArrowRight, Brain, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "KI-Beratung Berlin",
   description:
-    "Strategische KI-Beratung für Unternehmen. Von der Potenzialanalyse bis zur vollständigen KI-Integration. Tobias Köllner, Berlin.",
+    "Strategische KI-Beratung für Unternehmen. Von der Potenzialanalyse bis zur vollständigen KI-Integration. Christopher Köllner, Berlin.",
 };
 
 const offerings = [

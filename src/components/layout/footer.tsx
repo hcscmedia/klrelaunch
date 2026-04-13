@@ -131,7 +131,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-6 border-t border-[var(--color-border)] flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[var(--color-text-muted)]">
-            © {new Date().getFullYear()} Tobias Köllner · Berlin · Alle Rechte vorbehalten
+            © {new Date().getFullYear()} Christopher Köllner · Berlin · Alle Rechte vorbehalten
           </p>
           <div className="flex items-center gap-4">
             {footerLinks.legal.map((link) => (

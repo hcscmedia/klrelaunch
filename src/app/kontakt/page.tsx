@@ -4,7 +4,7 @@ import { Mail, MapPin, Clock, ExternalLink, GitBranch, MessageSquare } from "luc
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Nimm Kontakt mit Tobias Köllner auf. Kostenloses Erstgespräch für neue Projekte — Webentwicklung, KI-Beratung und digitale Transformation.",
+    "Nimm Kontakt mit Christopher Köllner auf. Kostenloses Erstgespräch für neue Projekte — Webentwicklung, KI-Beratung und digitale Transformation.",
 };
 
 const contactInfo = [

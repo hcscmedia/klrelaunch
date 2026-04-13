@@ -5,7 +5,7 @@ import { ArrowRight, ExternalLink } from "lucide-react";
 export const metadata: Metadata = {
   title: "Projekte",
   description:
-    "Ausgewählte Web- und KI-Projekte von Tobias Köllner. Von E-Commerce-Plattformen bis zu AI-powered Dashboards — echte Projekte, echte Ergebnisse.",
+    "Ausgewählte Web- und KI-Projekte von Christopher Köllner. Von E-Commerce-Plattformen bis zu AI-powered Dashboards — echte Projekte, echte Ergebnisse.",
 };
 
 const categories = ["Alle", "Web App", "KI", "CMS", "SaaS", "E-Commerce"];

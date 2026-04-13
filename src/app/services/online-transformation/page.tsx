@@ -5,7 +5,7 @@ import { ArrowRight, TrendingUp, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Online Transformation",
   description:
-    "Ganzheitliche digitale Transformation für Unternehmen. Von der Analyse bis zur Umsetzung. Tobias Köllner, Berlin.",
+    "Ganzheitliche digitale Transformation für Unternehmen. Von der Analyse bis zur Umsetzung. Christopher Köllner, Berlin.",
 };
 
 const phases = [

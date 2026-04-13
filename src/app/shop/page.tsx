@@ -5,7 +5,7 @@ import { ArrowRight, Download, Video, FileText, Star, ShoppingCart } from "lucid
 export const metadata: Metadata = {
   title: "Shop",
   description:
-    "Digitale Produkte, Templates und Ressourcen von Tobias Köllner. Next.js Boilerplates, KI-Prompts, Guides und mehr.",
+    "Digitale Produkte, Templates und Ressourcen von Christopher Köllner. Next.js Boilerplates, KI-Prompts, Guides und mehr.",
 };
 
 const products = [

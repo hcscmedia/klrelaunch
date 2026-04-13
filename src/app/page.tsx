@@ -83,7 +83,7 @@ const stats = [
 
 const testimonials = [
   {
-    text: "Tobias hat unsere Erwartungen in jedem Aspekt übertroffen. Die Website ist nicht nur wunderschön, sondern auch messbar erfolgreicher als die alte.",
+    text: "Christopher hat unsere Erwartungen in jedem Aspekt übertroffen. Die Website ist nicht nur wunderschön, sondern auch messbar erfolgreicher als die alte.",
     author: "Anna Berger",
     role: "Geschäftsführerin, BerlinTech GmbH",
     rating: 5,
@@ -95,7 +95,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    text: "Professionell, schnell, denkt mit. Tobias ist der Partner, den du für digitale Projekte brauchst.",
+    text: "Professionell, schnell, denkt mit. Christopher ist der Partner, den du für digitale Projekte brauchst.",
     author: "Julia Wagner",
     role: "Marketing Direktorin, MediaGroup",
     rating: 5,
@@ -134,7 +134,7 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-[var(--color-text-secondary)] max-w-2xl animate-fade-in-up delay-200 mb-10">
-              Tobias Köllner — Webdeveloper &amp; KI-Berater aus Berlin. Ich entwickle
+              Christopher Köllner — Webdeveloper &amp; KI-Berater aus Berlin. Ich entwickle
               moderne Web-Anwendungen, integriere KI in Geschäftsprozesse und begleite
               Unternehmen bei ihrer digitalen Transformation.
             </p>
@@ -294,7 +294,7 @@ export default function Home() {
                   <Code2 size={22} className="text-[var(--color-accent)]" />
                 </div>
                 <div>
-                  <div className="font-semibold text-[var(--color-text-primary)]">Tobias Köllner</div>
+                  <div className="font-semibold text-[var(--color-text-primary)]">Christopher Köllner</div>
                   <div className="text-sm text-[var(--color-text-secondary)]">Webdev &amp; KI-Berater · Berlin</div>
                 </div>
               </div>

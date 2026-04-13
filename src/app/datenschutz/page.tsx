@@ -27,7 +27,7 @@ export default function DatenschutzPage() {
             <div>
               <h2 className="text-lg text-[var(--color-text-primary)] mb-3">2. Verantwortlicher</h2>
               <p>
-                Tobias Köllner<br />
+                Christopher Köllner<br />
                 Musterstraße 1, 10115 Berlin<br />
                 E-Mail: hallo@koellner.life
               </p>

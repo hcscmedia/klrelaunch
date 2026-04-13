@@ -5,7 +5,7 @@ import { ArrowRight, Clock, Tag } from "lucide-react";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Artikel über Webentwicklung, KI-Integration, digitale Transformation und Best Practices von Tobias Köllner aus Berlin.",
+    "Artikel über Webentwicklung, KI-Integration, digitale Transformation und Best Practices von Christopher Köllner aus Berlin.",
 };
 
 const featuredPost = {

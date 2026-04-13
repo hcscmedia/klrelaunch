@@ -81,7 +81,7 @@ export function Header() {
           <Link
             href="/"
             className="flex items-center gap-2.5 group"
-            aria-label="Tobias Köllner — Startseite"
+            aria-label="Christopher Köllner — Startseite"
           >
             <div className="w-8 h-8 rounded-lg bg-[var(--color-accent)] flex items-center justify-center shadow-sm group-hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-shadow">
               <Code2 size={16} className="text-white" />

@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle2, Code2, Zap, Shield, Globe } from "lucide-reac
 export const metadata: Metadata = {
   title: "Webentwicklung Berlin",
   description:
-    "Professionelle Webentwicklung mit Next.js, React und TypeScript. Moderne, schnelle und skalierbare Web-Anwendungen von Tobias Köllner aus Berlin.",
+    "Professionelle Webentwicklung mit Next.js, React und TypeScript. Moderne, schnelle und skalierbare Web-Anwendungen von Christopher Köllner aus Berlin.",
 };
 
 const features = [

@@ -16,7 +16,7 @@ export default function ImpressumPage() {
           <div className="space-y-8 text-[var(--color-text-secondary)]">
             <div>
               <h2 className="text-lg text-[var(--color-text-primary)] mb-3">Angaben gemäß § 5 TMG</h2>
-              <p>Tobias Köllner<br />
+              <p>Christopher Köllner<br />
                 Musterstraße 1<br />
                 10115 Berlin<br />
                 Deutschland</p>

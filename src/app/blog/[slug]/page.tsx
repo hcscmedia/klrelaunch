@@ -23,7 +23,7 @@ const posts: Record<string, BlogPost> = {
     category: "KI-Strategie",
     readTime: "8 min",
     date: "12. April 2025",
-    author: "Tobias Köllner",
+    author: "Christopher Köllner",
     tags: ["KI", "Strategie", "Transformation"],
     content: [
       {
@@ -104,7 +104,7 @@ const posts: Record<string, BlogPost> = {
     category: "Webentwicklung",
     readTime: "6 min",
     date: "8. April 2025",
-    author: "Tobias Köllner",
+    author: "Christopher Köllner",
     tags: ["Next.js", "React", "Performance"],
     content: [
       {
@@ -230,7 +230,7 @@ export default async function BlogPostPage({
             <div className="flex items-center justify-between pt-6 border-t border-[var(--color-border)]">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-[var(--color-accent-subtle)] border border-[var(--color-accent)] flex items-center justify-center">
-                  <span className="text-sm font-bold text-[var(--color-accent)]">TK</span>
+                  <span className="text-sm font-bold text-[var(--color-accent)]">CK</span>
                 </div>
                 <div>
                   <div className="text-sm font-semibold text-[var(--color-text-primary)]">{post.author}</div>
@@ -317,10 +317,10 @@ export default async function BlogPostPage({
             {/* Author CTA */}
             <div className="mt-10 card p-8 flex flex-col sm:flex-row gap-6 items-start">
               <div className="w-16 h-16 rounded-full bg-[var(--color-accent-subtle)] border-2 border-[var(--color-accent)] flex items-center justify-center shrink-0">
-                <span className="text-xl font-bold text-[var(--color-accent)]">TK</span>
+                <span className="text-xl font-bold text-[var(--color-accent)]">CK</span>
               </div>
               <div>
-                <div className="font-semibold text-[var(--color-text-primary)] mb-1">Tobias Köllner</div>
+                <div className="font-semibold text-[var(--color-text-primary)] mb-1">Christopher Köllner</div>
                 <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed mb-4">
                   Webdeveloper und KI-Berater aus Berlin. Wenn du Fragen zu diesem Artikel hast
                   oder KI-Unterstützung für dein Unternehmen suchst — ich freue mich auf das Gespräch.

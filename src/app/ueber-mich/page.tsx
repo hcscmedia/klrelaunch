@@ -16,14 +16,14 @@ import {
 export const metadata: Metadata = {
   title: "Über mich",
   description:
-    "Tobias Köllner — Webdeveloper und KI-Berater aus Berlin mit über 8 Jahren Erfahrung. Erfahre mehr über meinen Werdegang, meine Werte und meine Arbeitsweise.",
+    "Christopher Köllner — Webdeveloper und KI-Berater aus Berlin mit über 8 Jahren Erfahrung. Erfahre mehr über meinen Werdegang, meine Werte und meine Arbeitsweise.",
 };
 
 const timeline = [
   {
     year: "2024–heute",
     title: "Selbstständig · Webdev & KI-Beratung",
-    company: "Tobias Köllner — koellner.life",
+    company: "Christopher Köllner — koellner.life",
     description:
       "Freelance Webentwicklung und KI-Strategieberatung für Startups, Mittelstand und Agenturen. Fokus auf Next.js, KI-Integration und digitale Transformation.",
   },
@@ -93,7 +93,7 @@ export default function UeberMichPage() {
               </div>
               <h1 className="mb-6">
                 Hallo, ich bin{" "}
-                <span className="text-gradient">Tobias.</span>
+                <span className="text-gradient">Christopher.</span>
               </h1>
               <p className="text-lg text-[var(--color-text-secondary)] mb-8 leading-relaxed">
                 Ich bin Webdeveloper und KI-Berater aus Berlin. Ich baue digitale Produkte,
@@ -119,7 +119,7 @@ export default function UeberMichPage() {
               <div className="aspect-square rounded-2xl overflow-hidden border border-[var(--color-border)] relative shadow-xl">
                 <Image
                   src="/images/tobias-koellner.jpg"
-                  alt="Tobias Köllner — Webdeveloper & KI-Berater Berlin"
+                  alt="Christopher Köllner — Webdeveloper & KI-Berater Berlin"
                   fill
                   className="object-cover object-center"
                   priority
