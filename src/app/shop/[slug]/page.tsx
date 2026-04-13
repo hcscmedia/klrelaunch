@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, CheckCircle2, Download, Star, Shield } from "lucide-react";
+import { ArrowLeft, ArrowRight, CheckCircle2, Star, Shield } from "lucide-react";
+import { BuyButton } from "@/components/shop/buy-button";
 
 type Product = {
   title: string;
@@ -208,9 +209,7 @@ export default async function ShopProductPage({
                 <p className="text-xs text-[var(--color-text-muted)] mt-1">inkl. MwSt · Sofortdownload</p>
               </div>
 
-              <button className="btn btn-primary w-full justify-center">
-                <Download size={16} /> Jetzt kaufen
-              </button>
+              <BuyButton slug={slug} price={product.price} />
 
               <div className="flex items-start gap-2.5 p-3 rounded-lg bg-green-500/10 border border-green-500/20">
                 <Shield size={14} className="text-green-500 mt-0.5 shrink-0" />
@@ -263,9 +262,7 @@ export default async function ShopProductPage({
             Schreib mir direkt — ich antworte innerhalb von 24 Stunden.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="btn btn-primary">
-              <Download size={16} /> {product.price} — Jetzt kaufen
-            </button>
+            <BuyButton slug={slug} price={product.price} className="btn btn-primary" />
             <Link href="/kontakt" className="btn btn-secondary">
               Frage stellen <ArrowRight size={16} />
             </Link>

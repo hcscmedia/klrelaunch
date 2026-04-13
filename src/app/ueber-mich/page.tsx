@@ -108,7 +108,7 @@ export default function UeberMichPage() {
                 <Link href="/kontakt" className="btn btn-primary">
                   Lass uns reden <ArrowRight size={16} />
                 </Link>
-                <a href="/cv-tobias-koellner.pdf" className="btn btn-secondary">
+                <a href="/cv-christopher-koellner.pdf" className="btn btn-secondary">
                   <Download size={16} /> CV herunterladen
                 </a>
               </div>
@@ -118,7 +118,7 @@ export default function UeberMichPage() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden border border-[var(--color-border)] relative shadow-xl">
                 <Image
-                  src="/images/tobias-koellner.jpg"
+                  src="/images/christopher-koellner.jpg"
                   alt="Christopher Köllner — Webdeveloper & KI-Berater Berlin"
                   fill
                   className="object-cover object-center"
