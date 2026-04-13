@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Code2, Mail, Linkedin, Github, ArrowUpRight } from "lucide-react";
+import { Code2, Mail, GitBranch, ExternalLink, ArrowUpRight } from "lucide-react";
 
 const footerLinks = {
   services: [
@@ -57,7 +57,7 @@ export function Footer() {
                 aria-label="GitHub"
                 className="w-9 h-9 rounded-lg border border-[var(--color-border)] flex items-center justify-center text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors"
               >
-                <Github size={16} />
+                <GitBranch size={16} />
               </a>
               <a
                 href="https://linkedin.com"
@@ -66,7 +66,7 @@ export function Footer() {
                 aria-label="LinkedIn"
                 className="w-9 h-9 rounded-lg border border-[var(--color-border)] flex items-center justify-center text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors"
               >
-                <Linkedin size={16} />
+                <ExternalLink size={16} />
               </a>
             </div>
           </div>

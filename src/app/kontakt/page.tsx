@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, Clock, Linkedin, Github, MessageSquare } from "lucide-react";
+import { Mail, MapPin, Clock, ExternalLink, GitBranch, MessageSquare } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Kontakt",
@@ -199,11 +199,11 @@ export default function KontaktPage() {
                 <div className="flex gap-3">
                   <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
                     className="flex items-center gap-2.5 px-4 py-2.5 rounded-lg border border-[var(--color-border)] text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors">
-                    <Linkedin size={16} /> LinkedIn
+                    <ExternalLink size={16} /> LinkedIn
                   </a>
                   <a href="https://github.com" target="_blank" rel="noopener noreferrer"
                     className="flex items-center gap-2.5 px-4 py-2.5 rounded-lg border border-[var(--color-border)] text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors">
-                    <Github size={16} /> GitHub
+                    <GitBranch size={16} /> GitHub
                   </a>
                 </div>
               </div>
