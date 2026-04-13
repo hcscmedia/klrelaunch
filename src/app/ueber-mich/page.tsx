@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -113,19 +114,19 @@ export default function UeberMichPage() {
               </div>
             </div>
 
-            {/* Avatar placeholder */}
+            {/* Profile Photo */}
             <div className="relative">
-              <div className="aspect-square rounded-2xl bg-[var(--color-surface)] border border-[var(--color-border)] overflow-hidden relative">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-24 h-24 rounded-full bg-[var(--color-accent-subtle)] border-2 border-[var(--color-accent)] flex items-center justify-center mx-auto mb-4">
-                      <Code2 size={36} className="text-[var(--color-accent)]" />
-                    </div>
-                    <p className="text-sm text-[var(--color-text-muted)]">Profilfoto folgt</p>
-                  </div>
-                </div>
-                {/* Decorative dots */}
-                <div className="absolute inset-0 dot-grid opacity-30" />
+              <div className="aspect-square rounded-2xl overflow-hidden border border-[var(--color-border)] relative shadow-xl">
+                <Image
+                  src="/images/tobias-koellner.jpg"
+                  alt="Tobias Köllner — Webdeveloper & KI-Berater Berlin"
+                  fill
+                  className="object-cover object-center"
+                  priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                {/* Gradient overlay bottom */}
+                <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[var(--color-background)]/60 to-transparent" />
               </div>
               {/* Floating card */}
               <div className="absolute -bottom-6 -left-6 card p-4 flex items-center gap-3">
